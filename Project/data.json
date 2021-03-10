@@ -1,0 +1,134 @@
+{
+  "@type": "Dataset",
+  "identifier": "10.1038/s41597-019-0312-2",
+  "title": "Metadata record for: A global wildfire dataset for the analysis of fire regimes and fire behaviour",
+  "relatedPublications": [],
+  "repositories": [
+    {
+      "name": "PANGAEA",
+      "value": "https://doi.org.10.1594/PANGAEA.895835",
+      "@type": "DataCatalog"
+    }
+  ],
+  "assays": [
+    {
+      "measurementType": {
+        "annotationValue": "wildfire",
+        "termAccession": "http://purl.obolibrary.org/obo/ENVO_01000787",
+        "termSource": "ENVO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "digital curation",
+        "termAccession": "http://purl.obolibrary.org/obo/OBI_0302914",
+        "termSource": "OBI",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "measurementType": {
+        "annotationValue": "wildfire",
+        "termAccession": "http://purl.obolibrary.org/obo/ENVO_01000787",
+        "termSource": "ENVO",
+        "@type": "PropertyValue"
+      },
+      "technologyType": {
+        "annotationValue": "computational modeling technique",
+        "termAccession": "http://purl.obolibrary.org/obo/ERO_0001251",
+        "termSource": "ERO",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    }
+  ],
+  "factors": [
+    {
+      "name": "date of fire ",
+      "type": {
+        "annotationValue": "spatiotemporal_interval",
+        "termAccession": "http://www.ifomis.org/bfo/1.1/span#SpatiotemporalInterval",
+        "termSource": "NPO",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    },
+    {
+      "name": "geometry of burnt area",
+      "type": {
+        "annotationValue": "spatiotemporal_interval",
+        "termAccession": "http://www.ifomis.org/bfo/1.1/span#SpatiotemporalInterval",
+        "termSource": "NPO",
+        "@type": "PropertyValue"
+      },
+      "@type": "variableMeasured"
+    }
+  ],
+  "studyCharacteristics": {
+    "organism": [],
+    "environmentType": [
+      {
+        "annotationValue": "agricultural field",
+        "termAccession": "http://purl.obolibrary.org/obo/ENVO_00000114",
+        "termSource": "ENVO",
+        "@type": "PropertyValue"
+      },
+      {
+        "annotationValue": "forest ecosystem",
+        "termAccession": "http://purl.obolibrary.org/obo/ENVO_01001243",
+        "termSource": "ENVO",
+        "@type": "PropertyValue"
+      }
+    ],
+    "geographicalLocation": [
+      {
+        "annotationValue": "Earth (planet)",
+        "@type": "Place"
+      }
+    ],
+    "@type": "variableMeasured"
+  },
+  "ontologySourceReferences": {
+    "NPO": {
+      "name": "NPO",
+      "description": "NanoParticle Ontology",
+      "file": "http://data.bioontology.org/ontologies/NPO",
+      "version": "2011-12-08 (yyyy-mm-dd)",
+      "@type": "DefinedTermSet"
+    },
+    "ENVO": {
+      "name": "ENVO",
+      "description": "Environment Ontology",
+      "file": "http://data.bioontology.org/ontologies/ENVO",
+      "version": null,
+      "@type": "DefinedTermSet"
+    },
+    "OBI": {
+      "name": "OBI",
+      "description": "Ontology for Biomedical Investigations",
+      "file": "http://data.bioontology.org/ontologies/OBI",
+      "version": "2018-08-27",
+      "@type": "DefinedTermSet"
+    },
+    "ERO": {
+      "name": "ERO",
+      "description": "Eagle-I Research Resource Ontology",
+      "file": "http://data.bioontology.org/ontologies/ERO",
+      "version": "2013-08-02",
+      "@type": "DefinedTermSet"
+    },
+    "@type": "CategoryCodeSet"
+  },
+  "comments": [
+    {
+      "name": "Created With Configuration",
+      "value": "1.0",
+      "@type": "SoftwareApplication"
+    },
+    {
+      "name": "Data Descriptor License",
+      "value": "CC-BY-4.0",
+      "@type": "CreativeWork"
+    }
+  ]
+}
